@@ -47,9 +47,11 @@ img{
     border-radius:5px;
     cursor:pointer;
     margin-left:5px;
+    text-align: center;
 }
 .chat-footer button:hover{
     background:#005bb5;
+    
 }
 .chat-message{
     margin-bottom:10px;
