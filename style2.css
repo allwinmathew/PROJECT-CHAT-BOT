@@ -8,6 +8,8 @@ body {
 img {
     width: 50px;
     height: 50px;
+    justify-content: center;
+    display: inline-block;
 }
 
 /* Container for centering content */
@@ -177,6 +179,10 @@ a:hover {
     color: white;
     padding: 15px;
     text-align: center;
+    justify-content: start;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Chat Body */
@@ -185,6 +191,7 @@ a:hover {
     margin-top: 10px;
     max-height: calc(100vh - 150px);
     overflow-y: scroll;
+    display: inline;
 }
 
 /* Chat Footer (Input and Send button) */
@@ -220,4 +227,64 @@ a:hover {
 
 .chat-footer #send-btn:hover {
     background-color: #0056b3;
+}
+/* Modify the image style */
+
+
+/* nested bar */
+/* Style for the list and anchor tags */
+.chat-header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chat-header li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.chat-header li:hover {
+    background-color: #ddd;
+}
+
+/* Initially hide the nested list */
+.nested-list {
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.nested-list li {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.nested-list li:hover {
+    background-color: #ddd;
+}
+
+/* Show nested list when hovering over the List Of CB */
+#listOfCB:hover .nested-list {
+    display: block;
+}
+
+/* Style for anchor tags (links) */
+.nested-list a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+}
+
+.nested-list a:hover {
+    background-color: #ddd;
+}
+
+.boldt{
+    color: black;
 }

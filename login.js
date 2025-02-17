@@ -34,3 +34,12 @@ function showChat() {
     loginContainer.style.display = "none";
     chatContainer.style.display = "flex";
 }
+function logout() {
+    // Clear the user data stored in localStorage (if using localStorage for login state)
+    
+    // Redirect the user to the login page (or home page)
+    window.location.href = "index.html"; // Replace with your login page URL
+}
+
+// Add event listener to the logout button
+document.getElementById("logout").addEventListener("click", logout);

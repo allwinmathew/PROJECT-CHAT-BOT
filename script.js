@@ -14,4 +14,7 @@ function showChat() {
     document.querySelector('.chat-container').style.display = 'flex';
 }
 // Predefined credentials for testing purposes
+// Function to logout
+
+
 
