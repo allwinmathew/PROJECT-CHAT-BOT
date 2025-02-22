@@ -1,6 +1,6 @@
 // Predefined credentials for testing purposes
 const correctUsername = "user123";
-const correctPassword = "password123";
+const correctPassword = "123";
 
 // Get the form and input elements
 const loginForm = document.getElementById("login-form");

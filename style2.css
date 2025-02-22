@@ -255,6 +255,7 @@ a:hover {
     display: none;
     list-style-type: none;
     padding-left: 20px;
+    overflow: scroll;
 }
 
 .nested-list li {
